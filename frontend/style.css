@@ -33,3 +33,62 @@
   
   /* END OF CSS RESET */
 
+
+  body {
+    background-color: #f2f2f2;
+  }
+
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: light;
+    color: #006837;
+  }
+
+  @media screen and (max-width: 520px) {
+    h1 {
+      font-size: 24px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: light;
+      color: #006837;
+
+    }
+  }
+
+  div p {
+    max-width: 520px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    color: #4467745;
+    background-color: #f9c582;
+  }
+
+  input {
+    max-width: 480px;
+    height: 64px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+    color: #98a991;
+  }
+
+  @media screen and (max-width: 520px) {
+    width: 100%-40px;
+  }
+
+
+  button {
+    width: 120px;
+    height: 120px;
+    background-color: #f9c582;
+    color: #006837;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
